@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>The Forms</h1>
+    <form action="">
+      <!-- label use for , when hover the label First name then autometiclly go the input text.
+                     label and input id are same  -->
+      <!-- and other input attributs are use then serch the mdn input attributs -->
+      <label for="fname">First name : </label>
+      <input
+        type="text"
+        placeholder="first name"
+        id="fname"
+        required
+      /><br /><br />
+      <label for="lname">Last name : </label>
+      <input
+        type="text"
+        placeholder="last name"
+        id="lname"
+        required
+      /><br /><br />
+      <label for="gender">gender</label>
+      <select name="" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option></select
+      ><br /><br />
+      <label for="email"> Your Email : </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="enter email"
+        required
+      /><br /><br />
+      <label for="password">password</label>
+      <input type="password" name="" id="password" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
