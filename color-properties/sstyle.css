@@ -5,7 +5,27 @@
 h1 {
   background-color: aqua;
   color: blue;
+  border: 3px solid black;
 }
+
+/* rgb color propertics r=red , g = green , b = blue */
+/* the value of the rgb is 0 - 255 */
 p {
-  color: blueviolet;
+  color: rgb(255, 8, 9);
+}
+
+#btn {
+  background-color: bisque;
+  border: 2px solid green;
+}
+
+/* hexadecimal we use the 0 - 16 or 0 - f */
+.dis {
+  background-color: #00ff98;
+  color: #ff2299;
+}
+
+/* background-color: rgba(red, green, blue, alpha);  alpha value 0 to 1 */
+article {
+  background-color: rgba(200, 150, 100, 0.9);
 }
