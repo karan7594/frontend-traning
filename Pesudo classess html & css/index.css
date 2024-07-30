@@ -1,0 +1,19 @@
+/* The link background color aqua */
+.divbar a:link {
+  background-color: aqua;
+}
+
+/* When hover the link then background color is green */
+.divbar a:hover {
+  background-color: green;
+}
+
+/* when click the link then link background color is yellow */
+.divbar a:active {
+  background-color: yellow;
+}
+
+/* when link is visit then the color is pink */
+.divbar a:visited {
+  background-color: pink;
+}
