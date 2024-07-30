@@ -1,0 +1,27 @@
+/* Dencendant combinator */
+/* it select all the element and style it.*/
+.links ul li a {
+  color: grey;
+}
+
+.divbar p {
+  color: red;
+}
+
+/* Child combinator */
+/* it select all element that are direct childern*/
+.divbar > p {
+  color: aqua;
+}
+
+/* Adajcent sibling */
+/* it style the first paragraph  */
+.divbar h3 + p {
+  color: yellow;
+}
+
+/* General sibling  */
+/* it select all element that are connect direct children  */
+.divbar h3 ~ p {
+  color: purple;
+}
