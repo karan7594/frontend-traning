@@ -32,9 +32,27 @@ h1 {
 }
 
 .d {
-  width: 700px;
-  height: 650px;
+  width: 600px;
+  height: 550px;
   background-color: black;
   background-image: url("me.jpg.jpg");
   background-size: cover;
+  position: sticky;
+  top: 80px;
+
+  /* position: fixed; */
 }
+
+.d > div{
+  background-color: blue;
+  font-size: 20px;
+  /* position: sticky; */
+}
+
+#box2{
+  border: 3px solid black;
+  position: sticky;
+  top: 0;
+}
+
+ 
